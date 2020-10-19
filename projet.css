@@ -1,0 +1,226 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+body{
+  background-color: lightgrey ;
+    background-position: center;
+     background-size: cover; 
+     font-family: sans-serif;
+     margin-top: 40px;
+}
+  .regform{
+      width:800px;
+      background-color: #4ca1af ;
+      margin:auto;
+      color: #FFFFFF;
+      padding:10px 0px 10px 0px;
+      text-align:center ;
+      border-radius:15px 15px 0px 0px ;  
+  }
+  .main{
+      background-color: #c4e0e5 ;
+      width: 800px;
+      margin:auto;
+  }
+  form{
+      padding:10px;
+    }
+      #Nom-Complet{
+          width: 100%;
+          height:100px;
+      }
+  .Nom-Complet{
+      margin-left: 25px;
+      margin-top: 30px;
+      width:125px;
+      color: white;
+      font-size: 18px;
+      font-weight: 700;
+  }
+  .Nom{
+      position: relative;
+      left: 200px;
+      top: -37px;
+      line-height: 40px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px;
+  }
+  .Prénom{
+    position: relative;
+    left: 417px;
+    top: -80px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;   
+  }
+  .firstlabel{
+      position:relative;
+      color: #e5e5e5;
+      text-transform: capitalize;
+      font-size: 14px;
+      left: 203px;
+      top: -45px;
+  }
+  .lastlabel{
+    position:relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 203px;
+    top: -76px;
+  }
+  .Date-naissance{
+      position: relative;
+      left:200px;
+      top: -37px;
+      line-height: 40px;
+      width: 355px;
+      border-radius: 6px;
+      padding: 0 22px;
+      font-size: 16px ;
+      color: #555;
+  }
+  .CNE{
+    position: relative;
+    left:200px;
+    top: -37px;
+    line-height: 40px;
+    width: 355px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px ;
+    color: #555;
+  }
+  .CIN{
+    position: relative;
+    left:200px;
+    top: -37px;
+    line-height: 40px;
+    width: 248px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px ;
+    color: #555;
+  }
+  .Origine{
+    position: relative;
+    left:200px;
+    top: -37px;
+    line-height: 40px;
+    width: 287px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px ;
+    color: #555;
+  }
+  .Email{
+    position: relative;
+    left:200px;
+    top: -37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px ;
+    color: #555;
+  }
+  .N°téléphone{
+    position: relative;
+    left:200px;
+    top: -37px;
+    line-height: 40px;
+    width: 287px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px ;
+    color: #555;
+  }
+  #BAC{
+    position: relative;
+    left:200px;
+    top: -37px;
+    line-height: 40px;
+    width: 532px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px ;
+    color:#555;
+    outline: none;
+    overflow: hidden;
+}
+
+.option option{
+    font-size: 20px;
+}
+
+#coustomer{
+    margin-left: 25px;
+    color: white;
+    font-size: 18px;
+}
+.radio{
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color:rgb(70, 86, 226);   
+    border-collapse: collapse;
+    text-align: center ;
+}
+.radio input{
+    width: 50px;
+    height: 20px;
+    border-radius: 5%;
+    cursor: pointer;
+    outline: 0;
+    padding: 5px;
+}
+
+p  {
+display: inline-block;
+padding-right: 20px;
+font-size: 20px;
+margin-left: 60px;
+margin-top: 20px;
+color:white;   
+border-collapse: collapse;
+text-align: center;
+
+}
+
+ p input{
+  width: 40px;
+  height: 20px;
+  border-radius: 8%;
+  cursor: pointer;
+  outline: 10px;
+  padding: 5px;
+  
+}
+
+button{
+    background-color: #4ca1af ;
+    display: block;
+    margin: 20px 0px 0px 20px; 
+    text-align: center;
+    border-radius: 12px;
+    border: 3px solid #366473;
+    padding: 17px 120px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+}
+
+button:hover 
+{
+    background-color: #5390F5;
+
+}
+
